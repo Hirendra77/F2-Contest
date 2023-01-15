@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F2 Contest</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="heading">
+         <h1>New Employees</h1>
+    </header>
+
+    <section id="formdata">
+   <div class="input">   
+        <label for="name">Enter Name: </label>
+        <input type="text" name="name" id="name">
+    </div> 
+
+    <div class="input">
+        <label for="profession">Enter Profession: </label>
+        <input type="text" name="profession" id="profession">
+    </div>
+
+    <div class="input">
+        <label for="age">Enter Age: </label>
+        <input type="number" name="age" id="age">
+    </div>
+</section>
+<div id="btn">
+    <button id="addbtn">Add User</button>
+</div>
+<div class="alert">
+    <div class="hidden" id="success" style="color: green;">
+        Success: Employee Added
+    </div>
+    <div class="hidden" id="error" style="color: red">
+        Error: please make  sure All the fields are filled before adding in an employee!
+    </div>
+</div>
+
+<p id="one">Added Employees</p>
+<p id="two">You have 0 Employees.</p>
+<div class="employeeTable">
+    <table id="table">
+        <tbody id="tableBody">
+
+        </tbody>
+    </table>
+</div>
+    <script src="./script.js"></script>
+</body>
+</html>

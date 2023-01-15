@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.heading{
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+.hidden{
+    display: none;
+}
+.alert{
+    
+    margin: 20px;
+    font-size: 20px;
+}
+
+#one{
+    color: white;
+    font-size: 20px;
+    margin: 10px 0px 0px 20px;
+}
+
+#two{
+    color:grey;
+    font-size: 20px;
+    margin: 10px 0px 0px 20px;
+}
+
+#table{
+    border: 1px solid white;
+  border-radius: 4px;
+  width: 50vw;
+  height: 50px;
+  margin: 1rem 2rem;
+  padding: 1rem;
+  color: white;
+  font-size: 1rem;
+}
+
+td{
+    margin: 30px;
+}
+.deleteButton {
+    background-color: white;
+    color: black !important;
+    width: 5rem;
+    height: 2.5rem;
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 5rem;
+  }
+
+  label{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .input{
+    display: inline-block;
+    margin: 20px;
+  }
+  .input input{
+    background-color:black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 200px;
+    height: 30px;
+    margin-top: 15px;
+  }
+
+  #addbtn{
+    margin-left: 20px;
+    padding: 4px 4px;
+    font-size: 20px;
+    border-radius: 6px;
+  }
